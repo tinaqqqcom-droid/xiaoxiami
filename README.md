@@ -41,6 +41,21 @@
 | Claude | 主要对话模型 |
 | Skills | 可扩展技能系统 |
 
+## 示例
+
+### 歌词时间轴工具
+
+`examples/lyrics_timeline_tool.py` - 一个图形化歌词时间戳标注工具：
+- 📝 手动标注歌词时间戳
+- 🎵 支持 MP3 音频文件
+- 💾 输出 JSON 或 Python 格式时间轴数据
+- ⌨️ 快捷键操作（空格=标记，回车=跳过）
+
+使用示例：
+```bash
+python examples/lyrics_timeline_tool.py
+```
+
 ## 特点
 
 - 🔒 **隐私优先** - 本地部署，数据不离开你的设备
