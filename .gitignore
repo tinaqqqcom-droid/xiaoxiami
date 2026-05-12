@@ -1,0 +1,64 @@
+# 敏感配置 - 绝不上传
+.env
+.env.*
+*.env
+secrets.*
+config.local.*
+
+# API 密钥和凭证
+*key*
+*secret*
+*token*
+*password*
+*credential*
+*.pem
+*.key
+
+# 个人数据
+MEMORY.md
+USER.md
+SOUL.md
+IDENTITY.md
+TOOLS.md
+HEARTBEAT.md
+
+# 日志和临时文件
+logs/
+*.log
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 会话和对话记录
+sessions/
+memory/
+对话记录*/
+*.conversation.*
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# 构建输出
+dist/
+build/
+*.egg-info/
+
+# 操作系统
+Thumbs.db
+.DS_Store
